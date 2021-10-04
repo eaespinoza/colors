@@ -1,13 +1,12 @@
 #Intialization
 import turtle
-import random
-emily=turtle.Turtle()
+turtle.colormode(255)
 
 #Functions
 def randomDot():
-    emily.color("red")
+    emily.color(255,0,0)
     emily.begin_fill()
-    emily.circle(5)
+    emily.circle(100)
     emily.end_fill()
 
 #Main
